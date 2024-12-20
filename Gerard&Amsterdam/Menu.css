@@ -1,0 +1,29 @@
+/* Styles for the Menu Page */
+
+/* General menu item styles */
+.menu-item {
+    font-size: 1.25rem; /* Slightly larger font size for readability */
+    font-weight: bold; /* Emphasize menu items */
+    color: #006BB6; /* Primary color */
+    display: block; /* Ensures each menu item spans its line */
+    margin-bottom: 0.5rem; /* Spacing between items */
+    padding: 0.5rem 1rem; /* Add padding for better touch interaction */
+    border-radius: 5px; /* Rounded corners for a polished look */
+    text-decoration: none; /* Remove underlines */
+    background-color: #f8f9fa; /* Light background for contrast */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effects for menu items */
+.menu-item:hover {
+    color: #F58426; /* Secondary color */
+    background-color: #e9ecef; /* Slightly darker background on hover */
+    text-decoration: underline; /* Subtle visual cue */
+}
+
+/* Active menu item styles */
+.menu-item.active {
+    color: #ffffff; /* Active text color */
+    background-color: #006BB6; /* Highlight active item with primary color */
+    text-decoration: none; /* Ensure no underlines */
+}

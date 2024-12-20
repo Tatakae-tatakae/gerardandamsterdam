@@ -1,0 +1,19 @@
+
+/* Additional styles to complement Bootstrap */
+#reservation-form {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #F58426;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #006BB6;
+    color: #fff;
+}
